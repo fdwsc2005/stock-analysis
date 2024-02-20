@@ -39,7 +39,7 @@ matplotlib: Data visualization.
 seaborn: Statistical data visualization.
 Credits
 
-Developed by Your Name
+Developed by Franco Dicosola
 License
 
 This project is licensed under the MIT License.
