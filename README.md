@@ -1,48 +1,45 @@
-Stock Market Analysis and Visualization
+Stock Analysis Tool
 
-This project is a Python-based tool for analyzing and visualizing stock market data. It utilizes various libraries such as yfinance, pandas, matplotlib, seaborn, and scikit-learn to retrieve, process, analyze, and visualize historical stock market data.
+Description
+
+This Python script provides a comprehensive analysis of stock prices for the SPDR S&P 500 ETF (SPY) and the Invesco QQQ Trust (QQQ). It utilizes the yfinance library to fetch historical price data, performs various technical analysis techniques, and visualizes the results using Matplotlib and Seaborn.
 
 Features
 
-Retrieve historical stock market data for a given ticker symbol.
-Visualize stock prices, trading volume, and other metrics over time.
-Calculate moving averages and percent changes in stock prices.
-Analyze correlations between different stocks and market indices.
-Predict future stock prices using linear regression and ARIMA models.
-Compare the performance of different stocks and market indices.
-Installation
+Data Retrieval: Fetch historical price data for SPY and QQQ from Yahoo Finance.
+Technical Analysis: Calculate moving averages, Bollinger Bands, and MACD indicators.
+Data Visualization: Plot price movements, trends, and relationships between SPY and QQQ.
+Statistical Analysis: Calculate daily returns, mean, standard deviation, and correlations.
+Interactive Plots: Use interactive plots to explore the data and analyze trends.
+How to Use
 
-To use this tool, make sure you have Python installed on your system. You can install the required dependencies using pip:
-
+Install the required libraries:
 bash
 Copy code
-pip install -r requirements.txt
-Usage
-
-Clone the repository to your local machine.
-Navigate to the project directory.
-Run the main Python script to analyze and visualize stock market data:
+pip install yfinance pandas numpy matplotlib seaborn
+Clone the repository:
 bash
 Copy code
-python main.py
-Follow the prompts to select a stock, specify the analysis or visualization you want to perform, and view the results.
+git clone https://github.com/your-username/stock-analysis-tool.git
+Navigate to the project directory:
+bash
+Copy code
+cd stock-analysis-tool
+Run the script:
+bash
+Copy code
+python stock_analysis.py
+Follow the on-screen instructions to view the analysis results.
 Dependencies
 
-yfinance
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-statsmodels
-Contributing
+yfinance: Fetch historical price data from Yahoo Finance.
+pandas: Data manipulation and analysis.
+numpy: Mathematical functions and operations.
+matplotlib: Data visualization.
+seaborn: Statistical data visualization.
+Credits
 
-Contributions to this project are welcome! If you encounter any bugs, have suggestions for new features, or want to contribute improvements, feel free to open an issue or submit a pull request.
-
+Developed by Your Name
 License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Contact
-
-For questions, feedback, or further assistance, please contact Franco Dicosola.
+This project is licensed under the MIT License.
