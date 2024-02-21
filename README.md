@@ -20,7 +20,7 @@ pip install yfinance pandas numpy matplotlib seaborn
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/your-username/stock-analysis-tool.git
+git clone https://github.com/fdwsc2005/stock-analysis-tool.git
 Navigate to the project directory:
 bash
 Copy code
